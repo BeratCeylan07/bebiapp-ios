@@ -3,28 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E468A6A2C807C5C00FBC5AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E468A692C807C5C00FBC5AD /* GoogleService-Info.plist */; };
 		0EF95B852C6E77AA00B72899 /* bebiappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF95B842C6E77AA00B72899 /* bebiappApp.swift */; };
 		0EF95B872C6E77AA00B72899 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF95B862C6E77AA00B72899 /* ContentView.swift */; };
 		0EF95B892C6E77AB00B72899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF95B882C6E77AB00B72899 /* Assets.xcassets */; };
 		0EF95B8D2C6E77AB00B72899 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF95B8C2C6E77AB00B72899 /* Preview Assets.xcassets */; };
-		0EF95B942C6E77BC00B72899 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EF95B932C6E77BC00B72899 /* GoogleService-Info.plist */; };
 		0EF95B962C6E780A00B72899 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF95B952C6E780A00B72899 /* WebView.swift */; };
 		0EF95B992C6E793300B72899 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0EF95B982C6E793300B72899 /* FirebaseAnalytics */; };
 		0EF95B9B2C6E793300B72899 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 0EF95B9A2C6E793300B72899 /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E468A692C807C5C00FBC5AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0EF95B812C6E77AA00B72899 /* bebiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bebiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF95B842C6E77AA00B72899 /* bebiappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bebiappApp.swift; sourceTree = "<group>"; };
 		0EF95B862C6E77AA00B72899 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0EF95B882C6E77AB00B72899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EF95B8A2C6E77AB00B72899 /* bebiapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bebiapp.entitlements; sourceTree = "<group>"; };
 		0EF95B8C2C6E77AB00B72899 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		0EF95B932C6E77BC00B72899 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0EF95B952C6E780A00B72899 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		0EF95B9E2C6E7D4D00B72899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				0EF95B9E2C6E7D4D00B72899 /* Info.plist */,
-				0EF95B932C6E77BC00B72899 /* GoogleService-Info.plist */,
+				0E468A692C807C5C00FBC5AD /* GoogleService-Info.plist */,
 				0EF95B842C6E77AA00B72899 /* bebiappApp.swift */,
 				0EF95B862C6E77AA00B72899 /* ContentView.swift */,
 				0EF95B882C6E77AB00B72899 /* Assets.xcassets */,
@@ -121,7 +121,7 @@
 				};
 			};
 			buildConfigurationList = 0EF95B7C2C6E77AA00B72899 /* Build configuration list for PBXProject "bebiapp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -147,8 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EF95B8D2C6E77AB00B72899 /* Preview Assets.xcassets in Resources */,
+				0E468A6A2C807C5C00FBC5AD /* GoogleService-Info.plist in Resources */,
 				0EF95B892C6E77AB00B72899 /* Assets.xcassets in Resources */,
-				0EF95B942C6E77BC00B72899 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,9 +276,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -289,7 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = bebiapp/bebiapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"bebiapp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9G7P28Q3M3;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -306,9 +309,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -320,7 +322,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -331,7 +333,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = bebiapp/bebiapp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_ASSET_PATHS = "\"bebiapp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9G7P28Q3M3;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -348,9 +350,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -362,7 +363,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

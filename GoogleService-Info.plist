@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDpvXB3X42h87F0jn5bA7VEF16CypKgxio</string>
+	<key>GCM_SENDER_ID</key>
+	<string>77155554012</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bebisocial.bebiapp</string>
+	<key>PROJECT_ID</key>
+	<string>bebisocial-bebiapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bebisocial-bebiapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:77155554012:ios:94821d8a0e3f16e2a59a19</string>
+</dict>
+</plist>
