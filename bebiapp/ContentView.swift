@@ -8,7 +8,7 @@ struct ContentView: View {
         WebView(webView: webViewStore.webView)
             .edgesIgnoringSafeArea(.all)
             .onAppear {
-                if let url = URL(string: "https://bebisocial.com") {
+                if let url = URL(string: "https://www.bebisocial.com/") {
                     self.webViewStore.webView.load(URLRequest(url: url))
                 }
             }
